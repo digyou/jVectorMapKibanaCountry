@@ -3,6 +3,7 @@ require('plugins/jVectorMapCountry/jvector_map_country_visController');
 require('plugins/jVectorMapCountry/jquery-jvectormap-2.0.3.min');
 require('plugins/jVectorMapCountry/jquery-jvectormap-world-mill');
 require('plugins/jVectorMapCountry/jquery-jvectormap-europe-mill');
+require('plugins/jVectorMapCountry/jquery-jvectormap-cn-mill');
 
 
 require('plugins/jVectorMapCountry/jquery-jvectormap-2.0.3.css');
@@ -18,7 +19,7 @@ function JVectorMapCountryProvider(Private) {
 	// Describe our visualization
 	return new TemplateVisType({
 		name: 'jVectorMapCountry', // The internal id of the visualization (must be unique)
-		title: 'Offline Country Map', // The title of the visualization, shown to the user
+		title: 'Offline Country Map test', // The title of the visualization, shown to the user
 		description: 'Offline Country Map Visualizer using jVectormap.', // The description of this vis
 		icon: 'fa-map', // The font awesome icon of this visualization		
 		template: require('plugins/jVectorMapCountry/jvector_map_country_vis.html'), // The template, that will be rendered for this visualization
@@ -26,7 +27,7 @@ function JVectorMapCountryProvider(Private) {
 			editor: require('plugins/jVectorMapCountry/jvector_map_country_vis_editor.html'), // Use this HTML as an options editor for this vis
 			defaults: { // Set default values for paramters (that can be configured in the editor)
 				mapBackgroundColor:"#C0C0FF",countryColorMin:"#00FF00",countryColorMax:"#FF0000"
-				,selectedMap:'world',maps:['world','europe']
+				,selectedMap:'world',maps:['world','europe','cn']
 			}
 		},
 		// Define the aggregation your visualization accepts
