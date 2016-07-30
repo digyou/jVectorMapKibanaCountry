@@ -12,3 +12,7 @@ unzip the content in the plugin folder of Kibana <br>
 reboot kibana <br>
 
 Maps provided by: http://jvectormap.com/ <br>
+
+the map like this:<br>
+![image](https://github.com/digyou/jVectorMapKibanaCountry/blob/master/china.png)
+![image](https://github.com/digyou/jVectorMapKibanaCountry/blob/master/world.png)
