@@ -1,15 +1,2 @@
-# jVectorMapKibanaCountry
-
-An Offline country code map visualizer for Kibana 4.5+
-
-updates as follow:
-1. add china map
-2. on the world map Taiwan belongs to CHINA
-3. change the province name into chinese
-
-## install
-unzip the content in the plugin folder of Kibana
-reboot kibana
-
-Maps provided by: http://jvectormap.com/
+<div><div><div># jVectorMapKibanaCountry</div><div><br></div><div>An Offline country code map visualizer for Kibana 4.5+</div><div><br></div><div>updates as follow:</div><div>1. add china map</div><div>2. on the world map Taiwan belongs to CHINA</div><div>3. change the province name into chinese</div><div><br></div><div>## install</div><div>unzip the content in the plugin folder of Kibana</div><div>reboot kibana</div><div><br></div><div>Maps provided by: http://jvectormap.com/</div></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 14px;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 14px;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 14px;"><br></div></div><!-- jy5ContentSuffix -->
 
