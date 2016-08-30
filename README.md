@@ -13,6 +13,6 @@ reboot kibana <br>
 
 Maps provided by: http://jvectormap.com/ <br>
 
-the map like this:<br>
+result:  
 ![image](https://github.com/digyou/jVectorMapKibanaCountry/blob/master/china.png)
 ![image](https://github.com/digyou/jVectorMapKibanaCountry/blob/master/world.png)
